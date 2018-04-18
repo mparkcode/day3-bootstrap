@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="css/whiskey.css" type="text/css" />
+    <style>
+        .jumbotron{
+            background-image: url('https://store.wallpaper.com/dw/image/v2/AAGA_PRD/on/demandware.static/-/Sites-12/default/dw1002b475/images/zoom/BOMM15VIZ106_TRA_1.jpg?sw=873&sh=486&sm=fit&cx=1&cy=367&cw=2560&ch=1425');
+            background-size: 100% 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,51 +30,111 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="">Home</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Sign In</a></li>
+                <li class="visible-xs"><a href="">Sign In</a></li>
             </ul>
         </div>
     </nav>
     
     <article class="container">
-        <!-- Callout -->
-        <section class="callout">
-            <h1>The finest whiskeys delivered to your doorstep.</h1>
-            <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <strong><mark>First one is free!</mark></strong></p>
-            <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
-            <p class="text-muted"><small>You must be over 18 to sign up for our service, please drink responsibly</small></p>
-        </section>
-        <!-- /.callout -->
+        <!--Following will not display on small screens due to hidden-xs class-->
+        <div class="row hidden-xs">
+            <div class="col-sm-8 col-sm-offset-2">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On!</strong>
+                    We've got a sale on. Get a 12 month subscription for the price of 6! <a href="#">Click here for details</a>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+             <div class="col-xs-12">
+                 <section class="callout jumbotron text-center">
+                   <!-- Callout -->
+                    <section class="callout">
+                        <h1>The finest whiskeys delivered to your doorstep.</h1>
+                        <p class="lead">Sign up today to start receiving the world's best whiskeys every month. <strong><mark>First one is free!</mark></strong></p>
+                        <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
+                        <p class="text-muted"><small>You must be over 18 to sign up for our service, please drink responsibly</small></p>
+                    </section>
+                    <!-- /.callout -->                     
+                 </section>
+             </div>
+         </div>
+         
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail"><img src="https://img.thewhiskyexchange.com/900/abgob.10yov13.jpg" alt="..."></a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail"><img src="https://www.whisky.fr/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/m/8/m8117.jpg" alt="..."></a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail"><img src="https://img.thewhiskyexchange.com/900/lrgob.25yov6.jpg" alt="..."></a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail"><img src="https://www.whisky.fr/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/m/1/m19639_1_1.jpg" alt="..."></a>
+            </div>
+        </div>
+ 
+
         <hr>
 
         <!-- Quotes -->
         <section class="quotes">
-            <h2 class="text-uppercase">Quotes:</h2>
-            <div class="quote">
-                <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                <p>- Jane Doe</p>
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                    <div class="quote">
+                        <img src="images/girl-image.png" class="img-circle media-object" height="100" width="100">
+                        <p style="font-size: 30px">I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                        <p style="font-size: 20px">- Jane Doe</p>
+                    </div>
+                    <div class="quote">
+                        <img src="images/guy-image_480.png" class="img-circle media-object" height="100" width="100">
+                        <p style="font-size: 30px">I haven't been sober for months!</p>
+                        <p style="font-size: 20px">- Jane Doe</p>
+                    </div>  
+                </div>
+                <div class="col-sm-4">
+                    <img  height="300px" style="margin-top: 80px;" src="https://i.pinimg.com/originals/fe/bc/68/febc68bb77a53812e3dad5c031763dde.jpg"  class="img-fluid hidden-xs "></img>
+                </div>
             </div>
-            <div class="quote">
-                <p>I haven't been sober for months!</p>
-                <p>- Jane Doe</p>
-            </div>
+            
         </section>
         <!-- /.quotes -->
         <hr>
 
         <!-- Features -->
         <section class="features">
-            <h2>Features:</h2>
-            <div class="feature">
-                <h3>Feature 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <div class="row">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <h2 class="text-uppercase" style="text-align: center">Features:</h2>
+                </div>
             </div>
-            <div class="feature">
-                <h3>Feature 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="feature">
-                <h3>Feature 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature" style="border-right:1px solid #D3D3D3">
+                        <h3><span class="glyphicon glyphicon-gift hidden-xs"></span> Feature 1 <span class="label label-success">New!</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-default" href="">Read more</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature" style="border-right:1px solid #D3D3D3">
+                        <h3><span class="glyphicon glyphicon-credit-card hidden-xs"></span> Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-info" href="">Read more</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4" style="border-right:1px solid #D3D3D3">
+                    <div class="feature">
+                        <h3><span class="glyphicon glyphicon-glass hidden-xs"></span> Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-danger" href="">Read more</a></p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- /.features -->
