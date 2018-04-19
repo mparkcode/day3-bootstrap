@@ -1,0 +1,65 @@
+img {
+    width: 300px;
+    
+}
+
+.blur:hover {
+    -webkit-filter: blur(3px);
+    transition: all 2s ease-in-out;
+}
+
+.grayscale:hover {
+    -webkit-filter: grayscale(4);
+    transition: all 2s ease-in-out;
+}
+
+.hue_rotate:hover {
+    -webkit-filter: hue-rotate(120deg);
+    transition: all 2s ease-in-out;
+}
+
+.sepia:hover {
+    -webkit-filter: sepia(20);
+    transition: all 2s ease-in-out;
+}
+
+.sepia {
+    -webkit-filter: sepia(20);
+}
+
+.saturate:hover {
+    -webkit-filter: saturate(10);
+    transition: all 2s ease-in-out;
+}
+
+.saturate {
+    -webkit-filter: saturate(10);
+}
+
+.opacity:hover {
+    -webkit-filter: opacity(0.5);
+    transition: all 2s ease-in-out;
+}
+
+.brightness:hover {
+    -webkit-filter: brightness(2);
+    transition: all 2s ease-in-out;
+}
+
+.contrast:hover {
+    -webkit-filter: contrast(100);
+    transition: all 2s ease-in-out;
+}
+
+.normal {
+    /*-webkit-filter: brightness(1);*/
+    /*-webkit-filter: blur(0);*/
+    /*-webkit-filter: grayscale(4);*/
+    /*-webkit-filter: hue-rotate(0deg);*/
+    /*-webkit-filter: sepia(0);*/
+    /*-webkit-filter: saturate(1);*/
+    /*-webkit-filter: opacity(1);*/
+    -webkit-filter: contrast(-100);
+    transition: all 2s ease-in-out;
+}
+
